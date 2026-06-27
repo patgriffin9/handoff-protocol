@@ -1,0 +1,12 @@
+.DS_Store
+*.tmp
+*.bak
+
+# Secrets — never commit (synced separately via iCloud symlinks)
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+token.json
+service-account*.json
